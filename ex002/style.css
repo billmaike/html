@@ -1,0 +1,17 @@
+body {
+    background-color: #D96941;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    
+main {
+    background-color: #A62B1F;
+    color: #d6d4d4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 10px 10px 10px #110a084d;
+    
+    
+    width: 650px;
+    padding: 10px;
+    margin: auto;
+}

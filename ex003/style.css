@@ -1,0 +1,27 @@
+body {
+    background-color: #E4F2E7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+a {
+    color: #E4F2E7;  
+    text-decoration: none;  
+}
+
+
+
+
+    
+main {
+    
+    background-color: #026773;
+    color: #E4F2E7;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 10px#0e252544 ;
+    
+   
+    padding: 20px;
+    margin: auto;
+}

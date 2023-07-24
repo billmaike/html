@@ -1,0 +1,117 @@
+@font-face {
+    font-family: idroid;
+    src: url("idroid.otf");
+}
+body {
+    background-color: #83e1ad;
+    margin: 0px;
+}
+header >h1 {
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.473);
+}
+body >header {
+    background-image: linear-gradient(to top ,#063d1e ,#83e1ad );
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+body >header >p {
+    font-size: 1.2em;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px ;
+    padding-bottom: 40px;
+    margin: auto;
+    
+}
+body >nav {
+    
+    background-color: #063d1e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.274);
+    padding: 0px
+
+    }
+body >nav >a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+}
+nav >a:hover {
+    background-color: #83e1ad;
+}
+main >article >p >a {
+    color: aqua;
+    text-decoration: none;
+}
+main {
+    background-color: aliceblue;
+    padding: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.37);
+}
+body > main> article > picture >img {
+    width: 100%;
+}
+strong {
+    color: #83e1ad;
+}
+
+main >article >h1 {
+    color: #063d1e;
+    font-family: idroid;
+}
+main >article >h3 {
+    background-image: linear-gradient(to right, #b4fcd4 , #ffffff);
+    color: #063d1e;
+    font-family: idroid;
+}
+div {
+    text-align: center;
+}
+main >article >p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main >article >aside {
+    background-color: #83e1ad;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.151);
+}
+body >main >article >aside >h4 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 7, 14);
+}
+body >main >article >aside >p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+article >aside >ul {
+    list-style-type: "\2714";
+    list-style-position: inside;
+    columns: 2;
+}
+iframe {
+    width: 100%;
+}
+footer >p {
+    background-color: #063d1e;
+    text-align: center;
+    color: aliceblue;
+    margin: 0px;
+    padding: 10px
+}
