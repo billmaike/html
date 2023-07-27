@@ -1,22 +1,48 @@
 @charset "UTF-8";
+@font-face {
+    font-family: Sriracha;
+    src: url("Sriracha-Regular.ttf");
+}
 body {
+    font-family: Sriracha;
+    
+    min-height: 100vh;
     background-color: aliceblue;
     margin: 0px;
-    
-    
+        
 } 
 header {
     color: aliceblue;
     background-color: black;
     text-align: center;
-    padding: 48px;
-    
+    padding-top: 10px;
+    padding-bottom: 30px;
+       
 }
+header >p {
+    margin-top: 0px;
+    font-size: 1.2em;
+}
+h1 {
+    margin-bottom: 0px;
+    font-size: 3em;
+
+}
+
 a {
     color: aliceblue;
-    text-decoration: none;
+    text-decoration: none;  
     
     
+}
+a:hover {
+    text-decoration: underline;
+}
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 3em;
+    padding-left: 10px;
 }
 section#q1 {
     background-image: url("imagens/img1.jpg");
@@ -27,16 +53,18 @@ section#q1 {
     background-size: 100% 100%;
     
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;   
     
-    
-    
-
-    
+       
+}
+section#q0 {
+    background-color:aliceblue;
+    width: 100%
     
     
 }
 section#q1 >p {
+    
     background-color: rgba(0, 0, 0, 0.329);
     position: absolute;
     padding: 2px;
@@ -45,6 +73,7 @@ section#q1 >p {
 }
 section > p {
     margin: 30px;
+    font-size: 1.5em;
 } 
 footer {
     color: aliceblue;
@@ -55,7 +84,15 @@ footer {
 section#q3 {
     background-image: url("imagens/img2.jpg");
     color: aliceblue;
+    height: 40vh;
+    background-position: center;
     background-size: 100% 100%;
-    height: 100vh;
-    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+section#q3 >p {
+    background-color: rgba(0, 0, 0, 0.329);
+    position: absolute;
+    padding: 2px;
 }
