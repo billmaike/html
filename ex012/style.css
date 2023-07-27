@@ -15,17 +15,19 @@ header {
     color: aliceblue;
     background-color: black;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-bottom: 30px;
        
 }
 header >p {
-    margin-top: 0px;
+    margin-top:  0px;
     font-size: 1.2em;
 }
 h1 {
     margin-bottom: 0px;
-    font-size: 3em;
+    font-variant: small-caps;
+    font-size: 8vw;
+
 
 }
 
@@ -39,19 +41,20 @@ a:hover {
     text-decoration: underline;
 }
 section {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
     line-height: 3em;
     padding-left: 10px;
+    font-size: 2vw;
+
 }
 section#q1 {
     background-image: url("imagens/img1.jpg");
-    
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.507);
     color: aliceblue;
-    height: 40vh;
+    height: 50vw;
+    background-size: cover;
     background-position: center;
-    background-size: 100% 100%;
-    
     background-repeat: no-repeat;
     background-attachment: fixed;   
     
@@ -59,7 +62,7 @@ section#q1 {
 }
 section#q0 {
     background-color:aliceblue;
-    width: 100%
+    
     
     
 }
@@ -68,12 +71,13 @@ section#q1 >p {
     background-color: rgba(0, 0, 0, 0.329);
     position: absolute;
     padding: 2px;
+    
 
 
 }
 section > p {
     margin: 30px;
-    font-size: 1.5em;
+    font-size: 4vw;
 } 
 footer {
     color: aliceblue;
@@ -84,10 +88,9 @@ footer {
 section#q3 {
     background-image: url("imagens/img2.jpg");
     color: aliceblue;
-    height: 40vh;
-    background-position: center;
-    background-size: 100% 100%;
-    
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.507);
+    height: 50vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
