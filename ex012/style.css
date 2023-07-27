@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+    background-color: aliceblue;
+    margin: 0px;
+} 
+header {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 48px;
+    
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    
+    
+}
+section#q1 {
+    background-image: url("imagens/img1.jpg");
+    color: aliceblue;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+section#q1 >p {
+    background-color: rgba(0, 0, 0, 0.329);
+
+}
+section > p {
+    margin: 30px;
+} 
+footer {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+}
+section#q3 {
+    background-image: url("imagens/img2.jpg");
+    color: aliceblue;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
