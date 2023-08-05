@@ -13,30 +13,32 @@ h1 {
     text-align: center;
     padding: 10px;
 }
-menu#itens {
-    display: block;
+menu {
+    display: none;
 }
-menu#itens ul {
-    list-style: none;
+menu ul {
+    list-style: none;   
 }
-menu#itens ul li a {
+
+menu ul li a {
     display: block;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: #FFFFFF;
-    background-color: #159A9C;
+    background-color: #B4BEC9;
+    border: 0px solid rgba(250, 248, 248, 0.068);
     
 }
-i#burguer {
-    background-color: #B4BEC9;
+span#burguer {
+    background-color: #002333;
     display: block;
-    text-align: center;
-    padding: 10px;
+    text-align: left;
+    padding: 5px;
     cursor: pointer;
 }
 menu ul li a:hover {
-    background-color: #B4BEC9;
+    background-color: #002333;
 }
 main {
     background-color: #DEEFE7;
