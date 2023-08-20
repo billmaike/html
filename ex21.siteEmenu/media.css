@@ -5,10 +5,23 @@
     display: none;
   } 
   menu {
+
     display: block;
   } 
   menu ul li {
     display: inline-block;
+   
   } 
+  menu ul li a {
+    background-color:#002333 ;
+  }
  
+  main {
+    font-size: 1em;
+    
+  }
+  menu ul li a:hover {
+    background-color: #024d7081;
+    
+}
 }
