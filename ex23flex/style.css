@@ -2,9 +2,9 @@
         margin: 0px;
         padding: 0px;
     }
+    
     body {
-        background-color: brown;
-       
+        background-color: brown;     
     }
 
     section {
@@ -14,20 +14,11 @@
         max-width: 500px;
         justify-content: center;
         width: 90vw;
-        
-        margin: auto;
-        
+        margin: auto;    
         flex-wrap: wrap;
     }
-    /*div {
-        background-color: rgb(6, 123, 224);
-        width: 300px;
-        height: 160px;
-    }*/
-
-    img {
-        
-        
+   
+    img {   
         width: 100%;
         height: 100%;
     }
