@@ -1,0 +1,33 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-color: brown;
+       
+    }
+
+    section {
+        gap: 20px;
+        display: flex;
+        background-color: rgba(240, 248, 255, 0.808);
+        max-width: 500px;
+        justify-content: center;
+        width: 90vw;
+        
+        margin: auto;
+        
+        flex-wrap: wrap;
+    }
+    /*div {
+        background-color: rgb(6, 123, 224);
+        width: 300px;
+        height: 160px;
+    }*/
+
+    img {
+        
+        
+        width: 100%;
+        height: 100%;
+    }
