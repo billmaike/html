@@ -6,23 +6,24 @@
 }
 
 header {
+    
     background-color: #002333;
     color: #FFFFFF;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.664);
-    
+   
 }
 h1 {
-    font-size: 2.2em;
+
     background-color: #002333;
-    width: 300px;
+    width: 200px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
     
 }
 
 main {
-    font-size: 1.6em;
+    font-size: 1.1em;
     background-color: #DEEFE7;
     width: 90vw;
     margin: auto;
@@ -53,17 +54,17 @@ menu ul {
 menu ul li a {
     
     display: block;
-    padding: 5%;
+    padding: 20px;
     text-align: left;
     text-decoration: none;
-    font-size: 1.3em;
+    
     color: #FFFFFF;
     background-color: #002333;
     border: 0px solid rgba(250, 248, 248, 0.068);
     
 }
 span#burguer {
-    position: fixed;
+    position: absolute;
     top: 5px;
     width: 100px;
     background-color: #002333;
@@ -73,13 +74,16 @@ span#burguer {
     
 }
 span.material-symbols-outlined {
-    font-size: 4em;
+    font-size: 2.6em;
     
 }
 menu ul li a:hover {
     background-color: #002333;
     
 }
-menu {
+menu#itens {
     height: 100vh;
+ /* position: absolute;
+    width: 200px;
+ deixa menu pequeno e po cima */
 }

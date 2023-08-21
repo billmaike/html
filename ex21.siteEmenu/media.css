@@ -3,15 +3,11 @@
   
   span#burguer {
     display: none;
-  }
-  
-  header {
+  }  
 
-  }
-  menu {
-    position: fixed;
-    top: 48px;
-    height: 0px;
+  menu#itens {
+    position: absolute;
+    top: 26px;
     display: block;
   } 
   menu ul li {
