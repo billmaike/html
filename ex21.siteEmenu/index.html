@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta name="theme-color" content="#002333">
+    <meta name="theme-color" content="#774AD9">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -30,9 +30,9 @@
         </menu>
     </header>    
 </body>
-   <main>
+   <main id="q1">
      <article>
-        <h2>CONTEUDO</h2>
+        <h3>CONTEUDO</h3>
 
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui nam sapiente ex, libero eos saepe, cum ea voluptatem excepturi vel nemo, dolorem similique impedit? Numquam optio corrupti sit doloribus officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatum distinctio culpa hic. Modi numquam provident eveniet excepturi ad facere quae corrupti ullam distinctio suscipit quibusdam, officia perferendis iste corporis.</p>
 
@@ -45,8 +45,11 @@
     function clickMenu() {
       if (itens.style.display == 'block') {
         itens.style.display = 'none'
+        q1.style.display = "block"
+        
       } else {
         itens.style.display = 'block'
+        q1.style.display = "none"
       }
     }
     function mudouTamanho() {

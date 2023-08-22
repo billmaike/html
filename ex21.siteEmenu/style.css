@@ -7,24 +7,24 @@
 
 header {
     
-    background-color: #002333;
-    color: #FFFFFF;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.664);
+    background-color: #ffffff;
+    color: #774AD9;
+    box-shadow: 0px 0px 5px rgba(87, 87, 87, 0.24);
    
 }
 h1 {
-
-    background-color: #002333;
+    font-size: 1.7em;
+    background-color: #ffffff;
     width: 200px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     margin: auto;
     
 }
 
 main {
     font-size: 1.1em;
-    background-color: #DEEFE7;
+    background-color:#E3DCF2 ;
     width: 90vw;
     margin: auto;
     max-width: 700px;
@@ -32,7 +32,7 @@ main {
     padding: 10px;
     text-align: justify;
 }
-article h2 {
+article h3 {
     padding-bottom: 10px;
     padding-top: 10px;
     
@@ -58,27 +58,28 @@ menu ul li a {
     text-align: left;
     text-decoration: none;
     
-    color: #FFFFFF;
-    background-color: #002333;
+    color:774AD9 ;
+    background-color: #ffffff;
     border: 0px solid rgba(250, 248, 248, 0.068);
     
 }
 span#burguer {
     position: absolute;
-    top: 5px;
+    top: 12px;
     width: 100px;
-    background-color: #002333;
+    background-color: #ffffff;
     display:block;
     text-align: left;
     padding: 3px;
+    padding-left: 12px;
     
 }
 span.material-symbols-outlined {
-    font-size: 2.6em;
+    font-size: 2.3em;
     
 }
 menu ul li a:hover {
-    background-color: #002333;
+    background-color: #E3DCF2;
     
 }
 menu#itens {
