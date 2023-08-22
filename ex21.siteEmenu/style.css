@@ -7,7 +7,7 @@
 
 header {
     
-    background-color: #ffffff;
+    background-color: #5f0404;
     color: #774AD9;
     box-shadow: 0px 0px 5px rgba(87, 87, 87, 0.24);
    
@@ -15,7 +15,7 @@ header {
 h1 {
     font-size: 1.7em;
     background-color: #ffffff;
-    width: 200px;
+    width: 150px;
     text-align: center;
     padding: 15px;
     margin: auto;
@@ -59,14 +59,14 @@ menu ul li a {
     text-decoration: none;
     
     color:774AD9 ;
-    background-color: #ffffff;
+    background-color: #750f0f;
     border: 0px solid rgba(250, 248, 248, 0.068);
     
 }
 span#burguer {
     position: absolute;
     top: 12px;
-    width: 100px;
+    width: 80px;
     background-color: #ffffff;
     display:block;
     text-align: left;
@@ -83,7 +83,7 @@ menu ul li a:hover {
     
 }
 menu#itens {
-    height: 90vh;
+    height: 85vh;
  /* position: absolute;
     width: 200px;
  deixa menu pequeno e po cima */
