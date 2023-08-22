@@ -4,7 +4,9 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
 }
-
+body {
+    
+}
 header {
     width: 100%;
     background-color:#ffffff ;
@@ -13,16 +15,14 @@ header {
     position: fixed;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.164);
 }
-body {
-    overflow: hidden;
-}
+
 h1 {
     font-size: 1.7em;
     background-color:#ffffff ;
     text-align: center;
     padding: 15px;
     margin: auto;
-    
+
 }
 
 main {

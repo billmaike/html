@@ -13,7 +13,7 @@
     
 
 </head>
-<body onresize="mudouTamanho()">
+<body id="q5" onresize="mudouTamanho()">
     <header id="q2">
       <h1>MEU SITE</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -39,17 +39,21 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aspernatur illum necessitatibus quia obcaecati soluta blanditiis atque omnis corrupti, non quisquam est, sit, ad praesentium. Exercitationem accusantium voluptatibus sapiente aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tenetur harum fuga voluptatem magnam perspiciatis deleniti, ad maxime culpa eligendi quos minus earum quas! Quis cumque vitae corporis nihil ex.</p>
 
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, saepe. Culpa nostrum totam suscipit. Saepe hic consequatur repellendus iusto, cumque quia, similique molestias eveniet expedita aspernatur inventore debitis vitae modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni asperiores id aspernatur ut officia, vel rem doloremque repudiandae sed. Illum maiores repellendus officiis quam laborum corrupti ullam nobis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos debitis expedita vel eum atque deleniti officia ratione modi culpa beatae neque soluta, voluptatem sint saepe quasi aliquam sequi sunt!</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, saepe. Culpa nostrum totam suscipit. Saepe hic consequatur repellendus iusto, cumque quia, similique molestias eveniet expedita aspernatur inventore debitis vitae modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni asperiores id aspernatur ut officia, vel rem doloremque repudiandae sed. Illum maiores repellendus officiis quam laborum corrupti ullam nobis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos debitis expedita vel eum atque deleniti officia ratione modi culpa beatae neque soluta, voluptatem sint saepe quasi aliquam sequi sunt!</p>
      </article>
    </main>
    <script>
     function clickMenu() {
       if (itens.style.display == 'none') {
         itens.style.display = 'block'
+        q5.style.overflow = "hidden"
         //q1.style.display = "block"
         //q2.style.position = "fixed"
       } else {
         itens.style.display = 'none'
-        //q1.style.display = "none"
+        q5.style.overflow = "scroll"
+        //q1.style. = "none"
       }
     }
     function mudouTamanho() {
