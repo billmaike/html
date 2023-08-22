@@ -13,6 +13,9 @@ header {
     position: fixed;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.164);
 }
+body {
+    overflow: hidden;
+}
 h1 {
     font-size: 1.7em;
     background-color:#ffffff ;
@@ -79,7 +82,7 @@ menu ul li a:hover {
     
 }
 menu#itens {
-    height: 99vh;
+    height: 100vh;
     
  /* position: absolute;
     width: 200px;
