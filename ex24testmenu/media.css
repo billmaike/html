@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+  
+  
+  span#burguer {
+    display: none;
+  }  
+
+  menu#itens {
+    position: absolute;
+    top: 32px;
+    display: block;
+  } 
+  menu ul li {
+    display: inline-block;
+   
+  } 
+  menu ul li a {
+    background-color:#ffffff ;
+    height: 10px;
+    padding: 10px;
+    font-size: 1em;
+  }
+ 
+  main {
+    font-size: 1em;
+    
+  } 
+}
