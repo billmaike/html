@@ -16,7 +16,7 @@ section {
 }
 
 header {
-    height: 20px;
+    height: 30px;
     padding: 10px;
     background-color: #6101a1;
     color: aliceblue;
@@ -80,11 +80,11 @@ footer {
 /* CSS DO LOGIN */
 
 h2 {
-    padding-top: 130px;
+    padding-top: 90px;
     margin-right: 153px;
 }
 
-div {   
+div {  
     height: 91vh;
     text-align: center;
     font-size: small;
@@ -121,7 +121,7 @@ input.ibt:hover {
 }
 
 section#login >a {
-    margin: 7px;
+    margin-bottom: 10px;
 }
 
 
