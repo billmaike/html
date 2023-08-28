@@ -16,34 +16,31 @@ section {
 }
 
 header {
-    height: 20px;
-    padding: 10px;
+    height: 45px;
+    padding: 8px;
     background-color: #6101a1;
     color: aliceblue;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     
 }
 header > a {
     text-decoration: none;
     color: #ffffff;
-    margin-top: 5px;
 }
 
 h1 {
-    text-align: center;
-    background-color: #f5e9fd;
-    margin-top: 0px;
-    padding: 50px;
+    margin: auto;
+   
 }
 
 menu {
-    background-color: #ffffff;
+    background-color: #6101a1;
     max-width: 400px;
-    height: 98.6vh;
+    height: 98.7vh;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: right;
@@ -55,26 +52,24 @@ menu >li {
     text-decoration: none;
     list-style: none;
     padding: 20px;
-    color:#6101a1 ;
+    color: aliceblue;
 
 }
 
 menu> a {
     text-decoration: none;
-    color: #6101a1;
-    font-size: 3em;
+    color: aliceblue;
+
+}
+
+img {
+   
 }
 
 p {
     margin: 10px;
     text-align: justify;
     font-size: 1.1em;
-}
-
-footer {
-    text-align: center;
-    font-size: small;
-    padding: 10px;
 }
 
 /* CSS DO LOGIN */
@@ -84,8 +79,9 @@ h2 {
     margin-right: 153px;
 }
 
-div {   
-    height: 91vh;
+div {
+    
+    height: 100vh;
     text-align: center;
     font-size: small;
     
@@ -118,10 +114,6 @@ input.ibt {
 }
 input.ibt:hover {
     background: linear-gradient(to right, #580292be 1%, #6101a160,#6202a1b9);
-}
-
-section#login >a {
-    margin: 7px;
 }
 
 
