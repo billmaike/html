@@ -3,14 +3,22 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+
+   /* EM TELAS MAIORES background-attachment: fixed; 
+    background-size: cover;  */ 
+}
+
+
 
 h1 {
-    margin: 14px; 
+    padding-top: 150px;
     margin-right: 130px;
 }
 
 div {
-    margin-top: 100px;
+    
+    height: 100vh;
     text-align: center;
     font-size: small;
     
@@ -21,6 +29,7 @@ div> a {
 }
 
 input {
+    padding-left: 8px;
     height: 40px;
     width: 250px;
     margin: 5px;
@@ -38,4 +47,8 @@ input.ibt {
     width: 253.3px;
     margin-top: 20px;
     margin-bottom: 15px;
+    
+}
+input.ibt:hover {
+    background: linear-gradient(to right, #580292be 1%, #6101a160,#6202a1b9);
 }
