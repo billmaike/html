@@ -39,8 +39,8 @@ h1 {
 
 menu {
     background-color: #0D0D0D;
-    width: 280px;
-    height: 95.7vh;
+    max-width: 400px;
+    height: 98.7vh;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: right;

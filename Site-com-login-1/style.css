@@ -1,0 +1,120 @@
+
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+header {
+    height: 200px;
+    padding: 10px;
+    background-color: #6101a1;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+header > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1 {
+    margin: auto;
+   
+}
+
+menu {
+    background-color: #6101a1;
+    max-width: 400px;
+    height: 98.7vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+    padding: 5px;
+}
+
+menu >li {
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    color: aliceblue;
+
+}
+
+menu> a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+img {
+   
+}
+
+p {
+    margin: 10px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+/* CSS DO LOGIN */
+
+h2 {
+    padding-top: 130px;
+    margin-right: 153px;
+}
+
+div {
+    
+    height: 100vh;
+    text-align: center;
+    font-size: small;
+    
+}
+
+div> a {
+    text-decoration: none;
+}
+
+input {
+    padding-left: 8px;
+    height: 40px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 20px;
+    border-style: double;
+    border-color: rgb(177, 177, 177);
+    border-width: 1px;
+}
+
+input.ibt {
+    background: linear-gradient(to right, #6101a1 1%, #6101a194,#6101a1);
+    color: aliceblue;
+    border-style: none;
+    height: 42px;
+    width: 253.3px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+input.ibt:hover {
+    background: linear-gradient(to right, #580292be 1%, #6101a160,#6202a1b9);
+}
+
+
+
