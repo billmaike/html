@@ -17,25 +17,21 @@ section {
 }
 
 header {
-    height: 35px;
+    height: 25px;
     padding: 10px;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
     
 }
 header > a {  
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 1.5em;
     color: black;
-
-}
-
-
     
-   
-
+}
 
 h1 {
     margin: auto;
