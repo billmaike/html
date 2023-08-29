@@ -13,13 +13,12 @@ section {
     width: 100vw;
     height: 100vh;
     overflow-y: auto;
+    
 }
 
 header {
     height: 35px;
     padding: 10px;
-    background-color:00427c8e ;
-    color: #000000;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
@@ -28,12 +27,15 @@ header {
 }
 header > a {  
     text-decoration: none;
-    margin-top: 5px;
+    font-size: 1.6em;
+    color: black;
+
 }
 
 section#p1 > hr {
-    width: 94vw;
+    width: 100vw;
     margin-top: 0px;
+   
 }
 
 h1 {
@@ -41,22 +43,37 @@ h1 {
     padding-right: 30px;
 }
 
-menu {
-    background-color: #ffffff;
-    max-width: 400px;
+
+menu {   
+    width: 280px;
     height: 98.7vh;
     margin-bottom: 0px;
-    margin-top: 0px; 
+    margin-top: 0px;
     text-align: right;
     padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.089);
+}
+
+section#botao {
+    background-color: rgb(233, 235, 235);
+}
+
+menu >a {
+    margin: -33px;
+    color: black;
+    position: relative;
+    top: -27px;
+    line-height: 80px;    
+    font-size: 1.2em;
 }
 
 menu >li {
     text-align: left;
     text-decoration: none;
     list-style: none;
-    padding: 13px;
-    margin: 10px;
+    padding: 10px;
+    margin-left: 11px;
 }
 
 hr {
@@ -64,11 +81,6 @@ hr {
     border-color: #ffffff;  
 }
 
-menu> a > img {
-     margin-bottom: 35px;
-     width: 22px;
-     padding: 5px;
-}
 
 p {
     margin: 12px;
