@@ -1,0 +1,31 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header >span#aqui {
+    
+    font-size: 2.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+menu {
+    display: none;
+    background-color: aqua;
+    width: 250px;
+    height: 100vh
+}
+
+menu >li {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 17px;
+
+}
+
+menu >li >a {
+    text-decoration: none;
+    color: black;
+}
