@@ -13,7 +13,7 @@ section {
     width: 100vw;
     height: 100vh;
     overflow-y: auto;
-    
+    overflow-x: hidden;
 }
 
 header {
@@ -32,11 +32,10 @@ header > a {
 
 }
 
-section#p1 > hr {
-    width: 100vw;
-    margin-top: 0px;
+
+    
    
-}
+
 
 h1 {
     margin: auto;
@@ -75,21 +74,28 @@ menu >li {
     padding: 10px;
     margin-left: 11px;
 }
-
-hr {
-    width: 87%;
-    border-color: #ffffff;  
+menu >li >a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
 }
 
 
+hr {
+    margin-top: 0px;
+    border-color: rgb(226, 226, 226);
+}
+
 p {
-    margin: 12px;
+    max-width: 600px;
+    margin: auto;
+    padding: 13px;
     text-align: justify;
     font-size: 1.1em;
 }
 footer {
     text-align: center;
     font-size: small;
+    margin: 10px;
 }
 
 
