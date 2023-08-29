@@ -74,6 +74,11 @@ p {
     font-size: 1.1em;
 }
 
+p#f {
+    text-align: center;
+    font-size: small;
+}
+
 
 /* CSS DO LOGIN */
 

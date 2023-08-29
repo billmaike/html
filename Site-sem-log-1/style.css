@@ -16,20 +16,24 @@ section {
 }
 
 header {
-    height: 40px;
+    height: 35px;
     padding: 10px;
-    background-color:#0D0D0D ;
-    color: aliceblue;
+    background-color:00427c8e ;
+    color: #000000;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: flex-end;
     
 }
-header > a {
+header > a {  
     text-decoration: none;
-    color: #ffffff;
+    margin-top: 5px;
+}
+
+section#p1 > hr {
+    width: 94vw;
+    margin-top: 0px;
 }
 
 h1 {
@@ -38,11 +42,11 @@ h1 {
 }
 
 menu {
-    background-color: #0D0D0D;
+    background-color: #ffffff;
     max-width: 400px;
     height: 98.7vh;
-    margin-top: 0px;
     margin-bottom: 0px;
+    margin-top: 0px; 
     text-align: right;
     padding: 5px;
 }
@@ -51,21 +55,29 @@ menu >li {
     text-align: left;
     text-decoration: none;
     list-style: none;
-    padding: 20px;
-    color: aliceblue;
-
+    padding: 13px;
+    margin: 10px;
 }
 
-menu> a {
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 1.5em;
+hr {
+    width: 87%;
+    border-color: #ffffff;  
+}
+
+menu> a > img {
+     margin-bottom: 35px;
+     width: 22px;
+     padding: 5px;
 }
 
 p {
-    margin: 10px;
+    margin: 12px;
     text-align: justify;
     font-size: 1.1em;
+}
+footer {
+    text-align: center;
+    font-size: small;
 }
 
 
