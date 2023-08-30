@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
     <link rel="stylesheet" href="style.css">
     
 </head>
 
 <body id="b1">
      <header>
-        <span id="aqui" onclick="clickMenu()">&#x2261;</span>
+        <span id="aqui" onclick="abrirmenu()">&#x2630;</span>
         <img src="pexels-scott-webb-430205.jpg" alt="">
      </header>
      <menu id="imenu">
-        <li id="x"><a href="">&#9587;</a></li> <hr size="1" noshade="">
+        <li id="x" onclick="fechar()">&#9587;</li>
+         <hr size="1" noshade="">
         <li><a href="">MENU</a></li> <hr size="1" noshade="">
         <li><a href="">MENU</a></li> <hr size="1" noshade="">
         <li><a href="">MENU</a></li> <hr size="1" noshade="">
@@ -37,13 +40,10 @@
      <footer>&copy;<strong>Bill Maike Salles</strong> developer</footer>
       
 </body>
-<script>
-    function clickMenu() {
-        if (imenu.style.display == 'none') {
-            imenu.style.display = 'block'
-            b1.style.overflow = "hidden"
-        }
-        else imenu.style.display = 'none'
-    }
-   </script>
+
+<script src="script.js"></script>
+
+
+    
+   
 </html>
