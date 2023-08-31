@@ -1,28 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>chipier</title>
-    <link rel="shortcut icon" href="imagens/favicon (1).ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-   
-</head>
-<body>
-  
-  
-    
-</body><main><h1>Chiper Informática</h1>
-    <hr>
-<h2>hardware</h2>
-<p>Processador <br>Placa mãe <br>Placa de video <br>Fonte</p><hr>
-<h2>Pereféricos</h2>
-<p>Gabinete <br>mouse <br>teclado <br>mousepad</p>
+    <title>Document</title>
 
-</main>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<blockquote><p>suporte <br>cotato <br>sobre</p></blockquote>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body id="b1">
+     <header>
+        <!--botaoMENU-->
+        <span id="bmenu" onclick="abrirmenu()">&#x2630;</span>
+
+        <!--botaoLOGIN-->
+        <span id="blogin" onclick="logar()"><img src="img/icons8-user-48.png" alt=""></span>
+     </header>
+
+     <img id="principal" src="img/pexels-scott-webb-430205.jpg" alt="">
+
+     <main>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore unde pariatur possimus laudantium doloremque tempora praesentium facilis, provident porro omnis quo, excepturi, earum consequatur cum qui rerum eligendi. Molestias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, nam! Beatae eaque, hic deleniti aut quae maiores in inventore cumque dolores corporis voluptatem earum aperiam placeat ut natus cum repellendus?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloremque officia tempore voluptatum a corrupti, quo quos incidunt. Doloribus unde minus cupiditate corrupti. Optio libero at, porro molestiae voluptas nostrum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore unde pariatur possimus laudantium doloremque tempora praesentium facilis, provident porro omnis quo, excepturi, earum consequatur cum qui rerum eligendi. Molestias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, nam! Beatae eaque, hic deleniti aut quae maiores in inventore cumque dolores corporis voluptatem earum aperiam placeat ut natus cum repellendus?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloremque officia tempore voluptatum a corrupti, quo quos incidunt. Doloribus unde minus cupiditate corrupti. Optio libero at, porro molestiae voluptas nostrum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore unde pariatur possimus laudantium doloremque tempora praesentium facilis, provident porro omnis quo, excepturi, earum consequatur cum qui rerum eligendi. Molestias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, nam! Beatae eaque, hic deleniti aut quae maiores in inventore cumque dolores corporis voluptatem earum aperiam placeat ut natus cum repellendus?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloremque officia tempore voluptatum a corrupti, quo quos incidunt. Doloribus unde minus cupiditate corrupti. Optio libero at, porro molestiae voluptas nostrum.
+     </main>
+
+     <!--abaMENU-->
+     <menu id="imenu">
+      <li id="x" onclick="fechar()">&#9587;</li>
+      <hr size="1" noshade="">
+      <li><a href="">MENU</a></li> <hr size="1" noshade="">
+      <li><a href="">MENU</a></li> <hr size="1" noshade="">
+      <li><a href="">MENU</a></li> <hr size="1" noshade="">
+      <li><a href="">MENU</a></li> <hr size="1" noshade="">  
+    </menu>
+    
+     <!--abaLOGIN-->
+     <menu id="ilogin">
+
+      <li id="xlogin" onclick="sair()">&#9587;</li>
+      <h2>Bem Vindo</h2>
+      <label for="ilog"></label>
+      <input type="email" id="ilog" placeholder="@email">
+
+      <label for="ipass"></label>
+      <input type="password" id="ipass" placeholder="senha">
+
+      <input id="sub" type="submit" value="ENTRAR">
+
+      <p>Novo aqui? <a href="">Cadastre-se</a></p>
+      <p>Esqueceu a <a href="">senha</a>?</p> 
+     </menu>
+   
+     <footer>&copy;<strong>Bill Maike Salles</strong> developer</footer>
+      
+</body>
+
+<script src="script.js"></script>
+
 </html>

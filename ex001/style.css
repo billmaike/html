@@ -1,24 +1,124 @@
-body {
-    background-color: #E4F2E7;
-    font-family: Arial, Helvetica, sans-serif;
-}
-h1 {
-    text-align: center;
-}
-blockquote {
-    background-color: #026773;
-    text-align: center;
+
+* {
+    margin: 0px;
+    padding: 0px;
+  
 }
 
-    
-main {
-    
-    background-color: #026773;
-    color: #E4F2E7;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 10px 10px 10px#0e252544 ;
-    
-    width: 650px;
-    padding: 10px;
+body {
+    background-color: rgb(241, 241, 241);    
+}
+
+header {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+}
+
+header >span#bmenu {
+    font-size: 1.7em;
+    color: aliceblue;
+    margin-left: 6px;  
+}
+
+span#blogin> img {
+    width: 30px;
+    margin-top: 4px;
+    margin-right: 2px;
+}
+
+img#principal {
+    width: 100%;
+}
+
+hr {
+    border-color: rgb(219, 219, 219);
+    width: 88%;
     margin: auto;
+}
+
+
+menu#imenu {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+menu#imenu >li {
+    list-style: none;
+    margin: 20px;
+}
+
+menu> li#x {
+    text-align: right;
+    margin: 25px;
+}
+
+menu >li >a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* LOGIN */
+menu#ilogin {
+    display: none;  
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+menu#ilogin >input {
+    height: 35px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-style: double;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+menu#ilogin >h2 {
+    margin-left: 13px;
+    margin-top: 130px;
+    margin-bottom: 25px;
+}
+
+menu#ilogin >p {
+    line-height: 30px;
+    margin-left: 25px;
+    font-size: .7em;
+    display: inline;
+}
+
+menu#ilogin >input#sub {
+    border-bottom: none;
+    background-color: #d42b39;
+    color: rgb(255, 255, 255);
+}
+
+menu#ilogin >li {
+    list-style: none;
+    margin: 10px;
+}
+
+main {
+   padding: 10px;
+   text-align: justify;
+}
+
+footer { 
+    padding: 3px;
+    text-align: center;
+    font-size: small;
 }
