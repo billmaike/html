@@ -1,23 +1,23 @@
 //funcoes do menu
 
 function abrirmenu() {
-    if (imenu.style.display == 'block') {
-        imenu.style.display = 'none'
-        
+    if (imenu.style.transform == 'translateX(-100%)') {
+        imenu.style.transform = 'translateX(0%)'
     }
-    else imenu.style.display = 'block'
+    else imenu.style.transform = 'translateX(0%)'
     b1.style.overflow = "hidden"
 }
 
 function fechar() {
-    if (imenu.style.display == 'block') {
-        imenu.style.display = 'none'
-        b1.style.overflow = ""
+    if (imenu.style.transform == 'translateX(0%)') {
+        imenu.style.transform = 'translateX(-100%)'    
     }
-    else imenu.style.display = 'none'
+    else imenu.style.transform = 'translateX(-100%)'
+    b1.style.overflow = ""
 }
 
 //FUNCOES D LOGIN
+
 
 function logar() {
     if (ilogin.style.display == 'block') {
@@ -34,5 +34,5 @@ function sair() {
         b1.style.overflow = ""
     }
     else ilogin.style.display = 'none'
-}
+} 
 
