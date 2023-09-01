@@ -26,6 +26,7 @@ function logar() {
     }
     else ilogin.style.display = 'block'
     b1.style.overflow = "hidden"
+    imenu.style.transform = 'translateX(-100%)'
 }
 
 function sair() {
