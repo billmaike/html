@@ -6,6 +6,7 @@ function abrirmenu() {
     }
     else imenu.style.transform = 'translateX(0%)'
     b1.style.overflow = "hidden"
+    
 }
 
 function fechar() {
@@ -16,24 +17,5 @@ function fechar() {
     b1.style.overflow = ""
 }
 
-//FUNCOES D LOGIN
 
-
-function logar() {
-    if (ilogin.style.display == 'block') {
-        ilogin.style.display = 'none'
-        
-    }
-    else ilogin.style.display = 'block'
-    b1.style.overflow = "hidden"
-    imenu.style.transform = 'translateX(-100%)'
-}
-
-function sair() {
-    if (ilogin.style.display == 'block') {
-        ilogin.style.display = 'none'
-        b1.style.overflow = ""
-    }
-    else ilogin.style.display = 'none'
-} 
 

@@ -2,35 +2,30 @@
 * {
     margin: 0px;
     padding: 0px;
-  
 }
-
-body {
-    background-color: rgb(241, 241, 241);  
-    height: 100vh;
-    
-}
-
 header {
-    background-color: #1f1f1f;
-    display: flex;
-    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+
 }
 
 header >span#bmenu {
-    color: aliceblue;
-    margin-top: 3px; 
+   position: relative;
+   top: 2px;
+     
 }
 
 header >span#bmenu >div {
    width: 22px;
    height: 1px;
-   background-color: rgb(255, 255, 255);
+   background-color: black;
    margin: 6px;
 }
 
 img#principal {
     width: 100%;
+    margin-top: 30px;
 }
 
 hr {
@@ -42,7 +37,7 @@ hr {
 
 menu#imenu {
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
     width: 300px;
     height: 100vh;
     position: absolute;
@@ -60,81 +55,22 @@ menu#imenu >li {
 menu> li#x {
     text-align: right;
     margin: 25px;
-    font-size: 15px;
+    font-size: 1.3em;
 }
 
 menu >li >a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* botao login dentro do menu */
-span#blogin {
-    margin-left: 190px;
-    line-height: 68px;
-    margin-top: 10px; 
-}
-span#blogin >img {
-    width: 30px;
-    margin-top: 15px;
-    margin-left: 2px;
-    position: absolute;   
-}
+/* botao do login dentro do menu */
 
-
-/* LOGIN */
-menu#ilogin {
-    display: none;  
-    text-align: center;
-    background-color: #ffffff;
-    max-width: 400px;
-    height: 100vh;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-menu#ilogin >input {
-    height: 30px;
-    width: 250px;
-    margin-top: 10px;
-    border-style: double;
-    border-width: 1px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-}
-menu#ilogin >h2 {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 125px;
-    margin-bottom: 25px;
-}
-
-menu#ilogin >p {
-    line-height: 30px;
-    font-size: 12px;
-    display: inline;
-}
-
-menu#ilogin >input#sub {
-    border-bottom: none;
-    background-color: #d42b39;
-    color: rgb(255, 255, 255);
-}
-
-menu#ilogin >li {
-    list-style: none;
-    margin: 10px;
-}
-
-menu#ilogin >li#xlogin {
-    font-size: 15px;
-    text-align: left;
+menu#imenu> li> a> img {
+    width: 35px;   
 }
 
 main {
