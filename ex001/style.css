@@ -5,7 +5,7 @@
 }
 header {
     display: flex;
-    height: 38px;
+    height: 43px;
     width: 100%;
     
 
@@ -13,7 +13,7 @@ header {
 
 header >span#bmenu {
    position: relative;
-   top: 6px;
+   top: 9px;
    left: 3px;  
 }
 
