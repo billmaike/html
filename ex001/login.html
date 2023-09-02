@@ -6,98 +6,99 @@
     <title>Document</title>
 
 <style>
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-
-menu { 
-    margin: auto;
-    max-width: 280px; 
-    padding-left: 30px;
-    padding-bottom: 20px;
-    color: rgb(129, 129, 129);
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-menu >input { 
-    height: 25px;
-    width: 235px;
-    margin-top: 7px;
-    margin-bottom: 5px;
-    margin-left: 7px;
-    border-style: groove;
-    border-width: 1px;
+menu> h3 {
+    margin-bottom: 35px;
+    margin-right: 2px;
+}
+
+menu {
+    position: relative;
+    top: 20vh;
+    text-align: center;
+    background-color: rgb(254, 255, 255);
+    width: 310px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-radius: 5px; 
+    /*box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.178);*/ 
+}
+
+menu> input#ilog {
+    width: 230px;
+    height: 30px;
+    margin: 10px;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-color: rgb(170, 170, 170);
+    border-width: 1px;
     outline: none;
 }
-menu >h2 { 
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    width: 280px;
-    margin-top: 19vh;
-    margin-bottom: 50px;
-    padding-top: 30px;
-}
 
-menu >p {
-    
-    display: block;
-    margin: 6px;
-    
-}
-menu >p >a {
-    text-decoration: none;
-}
-
-menu >input#sub {
-    color: rgb(140, 140, 141);
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    margin-bottom: 30px;
-    border-right: groove;
-    border-left: groove;
-    border-top: groove;
-    border-bottom: groove;
-    border-color: rgb(255, 255, 255);
-    border-width: 2px;
-    height: 40px; 
-    border-radius: 5px;  
-}
-
-menu >li {
-    list-style: none;
+menu> input#ipass {
+    width: 230px;
+    height: 30px;
     margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    outline: none;
 }
 
-menu> span {
+menu> input#sub {
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 45px;
+    margin: 20px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: groove;
+    border-color: rgb(136, 136, 136);
+}
+
+span {
     position: absolute;
     top: 1px;
-    left: 10px;
+    left: 7px;
     font-size: 1.3em;   
 }
-menu> span> a {
+span> a {
     color: black;
     text-decoration: none;
 }
+menu> p {
+    margin: 8px;
+}
+menu> p> a {
+    text-decoration: none;
+    font-size: 0.8em;
+    
+}
+
 </style>
 
 </head>
 <body>
+
+    <span><a href="index.html">&#9587;</a></span>
+
     <menu id="ilogin">
 
-        <span><a href="index.html">&#9587;</a></span>
-        <h2><u>Login</u></h2>
-        <label for="ilog"> &nbsp Email</label><br>
-        <input type="email" id="ilog"><br>
+        <h3>Faça seu login</h3>
+        <label for="ilog"></label>
+        <input type="email" id="ilog" placeholder="Email">
   
-        <label for="ipass"> &nbsp Senha</label><br>
-        <input type="password" id="ipass">
-  
-        <input id="sub" type="submit" value="ENTRAR"> <br>
+        <label for="ipass"></label>
+        <input type="password" id="ipass" placeholder="Senha">
+        
+        <input id="sub" type="submit" value="ENTRAR">
   
         <p><a href="">Esqueci minha senha</a></p>
         <p><a href="">Ainda não sou cliente</a></p> 
