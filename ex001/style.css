@@ -4,16 +4,17 @@
     padding: 0px;
 }
 header {
-    height: 30px;
+    display: flex;
+    height: 38px;
     width: 100%;
-    position: absolute;
+    
 
 }
 
 header >span#bmenu {
    position: relative;
-   top: 2px;
-     
+   top: 6px;
+   left: 3px;  
 }
 
 header >span#bmenu >div {
@@ -25,7 +26,7 @@ header >span#bmenu >div {
 
 img#principal {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 hr {
