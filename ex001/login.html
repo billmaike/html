@@ -12,56 +12,60 @@
     }
 
 menu { 
-    color: aliceblue;
-    background-color: #292d31;
     margin: auto;
     max-width: 280px; 
     padding-left: 30px;
     padding-bottom: 20px;
+    color: rgb(129, 129, 129);
 }
 
 menu >input { 
-    background-color:#292d31 ;
-    color: aliceblue;
     height: 25px;
     width: 235px;
     margin-top: 7px;
     margin-bottom: 5px;
     margin-left: 7px;
     border-style: groove;
-    border-width: 2px;
+    border-width: 1px;
     border-top: none;
     border-left: none;
     border-right: none;
+    border-color: rgb(170, 170, 170);
     outline: none;
 }
-menu >h2 {
-    background-color: #292d31;
+menu >h2 { 
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     width: 280px;
-    margin-top: 20vh;
+    margin-top: 19vh;
     margin-bottom: 50px;
-    margin-left: -5px;
     padding-top: 30px;
 }
 
 menu >p {
-    line-height: 30px;
-    font-size: .8em;
-    display: inline;
-    margin-left: 8px;
+    
+    display: block;
+    margin: 6px;
+    
 }
 menu >p >a {
-    color: rgb(175, 175, 175);
+    text-decoration: none;
 }
 
 menu >input#sub {
+    color: rgb(140, 140, 141);
+    background-color: rgb(255, 255, 255);
     margin-top: 10px;
-    border-bottom: none;
-    height: 30px;
-    background-color: #791820;
-    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    border-right: groove;
+    border-left: groove;
+    border-top: groove;
+    border-bottom: groove;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    height: 40px; 
+    border-radius: 5px;  
 }
 
 menu >li {
@@ -86,7 +90,7 @@ menu> span> a {
     <menu id="ilogin">
 
         <span><a href="index.html">&#9587;</a></span>
-        <h2><u>Bem Vindo</u></h2>
+        <h2><u>Login</u></h2>
         <label for="ilog"> &nbsp Email</label><br>
         <input type="email" id="ilog"><br>
   
@@ -95,8 +99,8 @@ menu> span> a {
   
         <input id="sub" type="submit" value="ENTRAR"> <br>
   
-        <p>Novo aqui? <a href="">Cadastre-se</a>
-           &nbsp; Esqueceu a <a href="">senha</a>?</p> 
+        <p><a href="">Esqueci minha senha</a></p>
+        <p><a href="">Ainda não sou cliente</a></p> 
        </menu>
      
 </body>
