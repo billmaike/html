@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
+    <style>
 
-<style>
 *{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    position: absolute;
+    left: 8px;
+    font-size: 1.4em;   
+}
+span> a {
+    color: black;
+    text-decoration: none;
 }
 
 menu> h3 {
@@ -32,6 +42,58 @@ menu {
     border-style: double;
     border-width: 1px;
     border-color: rgb(206, 207, 207);
+}
+
+menu> input#inome {
+    width: 230px;
+    height: 30px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    outline: none;
+}
+
+menu> input#ilog {
+    width: 230px;
+    height: 30px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    outline: none;
+}
+
+menu> input#ipass {
+    width: 230px;
+    height: 30px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    outline: none;
+}
+
+menu> input#sub {
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 45px;
+    margin: 20px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: groove;
+    border-color: rgb(136, 136, 136);
+}
+
+
+
+menu> p a {
+    text-decoration: none;
+    font-size: 0.8em;
+    
 }
 
 menu> input#iemail {
@@ -67,44 +129,29 @@ menu> input#isub {
     border-color: rgb(136, 136, 136);
 }
 
-span {
-    position: absolute;
-    left: 8px;
-    font-size: 1.4em;   
-}
-span> a {
-    color: black;
-    text-decoration: none;
-}
-menu> p {
-    margin: 8px;
-}
-menu> p> a {
-    text-decoration: none;
-    font-size: 0.8em;
-}
-
 </style>
 
+   
 </head>
 <body>
+       <span><a href="index.html">&#10005;</a></span> 
 
-    <span><a href="index.html">&#10005;</a></span>
+  <menu>
+        <h3>Cadastro</h3>
+       
 
-    <menu id="ilogin">
+        <label for="inome"></label>
+        <input type="text" name="inome" id="inome" placeholder="Nome">
 
-        <h3>Faça seu login</h3>
-        <label for="iemail"></label>
+        <label for="email"></label>
         <input type="email" name="iemail" id="iemail" placeholder="Email">
-  
+
         <label for="isenha"></label>
         <input type="password" name="isenha" id="isenha" placeholder="Senha">
-        
-        <input id="isub" type="submit" value="ENTRAR">
-  
-        <p><a href="">Esqueci minha senha</a></p>
-        <p><a href="cadastro.html">Ainda não sou cliente</a></p> 
-       </menu>
-     
+
+        <input type="submit" value="Cadastrar" id="isub">
+
+        <p><a href="login.html">voltar</a></p>
+    </menu>
 </body>
 </html>
