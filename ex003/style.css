@@ -4,26 +4,30 @@
     padding: 0px;
 }
 
-body {
-  
-}
 header {
-    display: flex;
-    height: 43px;
-    width: 100%;
 }
 
 header >span#bmenu {
-   position: relative;
-   top: 7px;
-   left: 3px;  
+   padding: 5px;
+   position: absolute;
+   top: 10px;
+   right: 10px;  
+   border-style: ridge;
+   border-width: 1px;
+   border-color: aliceblue;
+   
 }
 
 header >span#bmenu >div {
-   width: 22px;
+   
+   width: 17px;
    height: 1px;
-   background-color: black;
-   margin: 7px;
+   background-color: rgb(250, 248, 248);
+   margin-top: 5px;
+   margin-left: 4px;
+   margin-right: 4px;
+   margin-bottom: 5px;
+   
 }
 
 img#principal {
@@ -37,23 +41,14 @@ hr {
     margin: auto;
 }
 
-div {
-    display: flex;
-    flex-direction: row-reverse;
-   
-    
-}
 menu#imenu {
     display: block;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    justify-content: end;
     background-color: rgb(253, 253, 253);
     width: 300px;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0px;
-    
+    right: 0px;
     font-family: Arial, Helvetica, sans-serif;
     transform: translateX(100%);
     transition: transform .7s;
