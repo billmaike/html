@@ -19,23 +19,25 @@ body {
 header {
     flex-shrink: 0;
     background-image: url(img/predio2.jpg);
-    height: 350px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 header >div#logoname {
     color: aliceblue;
-    padding: 7px;
+    padding-left: 25px;
+    padding-top: 18px;
 }
 
 header >span#bmenu {
-   padding: 5px;
+   padding: 6px;
    position: absolute;
-   top: 10px;
-   right: 10px;  
+   top: 18px;
+   right: 20px;  
    border-style: ridge;
-   border-width: 1px;
+   border-width: 1PX;
    border-color: aliceblue;
    
 }
@@ -52,22 +54,18 @@ header >span#bmenu >div {
    
 }
 
-img#principal {
-    width: 100%;
-    margin-top: 0px;
-}
-
-hr {
-    border-color: rgb(219, 219, 219);
-    width: 88%;
-    margin: auto;
+header> section {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-top: 220px;
+    margin-left: 30px;
 }
 
 menu#imenu {
     display: block;
     background-color: #4b4f58;
     width: 300px;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -85,13 +83,17 @@ menu#imenu >li {
     
 }
 
+menu#imenu >li#social > a {
+    margin-right: 15px;
+}
+
 menu> li#x {
     color: aliceblue;
     text-align: right;
     margin-top: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     margin-right: 15px;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 menu >li >a {
@@ -101,9 +103,19 @@ menu >li >a {
 }
 
 main {
+   display: flex;
+   flex-wrap: wrap;
    padding: 10px;
-   text-align: justify;
+   justify-content: space-around;
    flex: 1 0 auto;
+}
+
+main> div {
+    margin: 10px;
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    font-size: small;
 }
 
 footer {
