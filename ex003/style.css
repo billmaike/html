@@ -20,7 +20,7 @@ body {
 header {
     flex-shrink: 0;
     background-image: url(img/predio3.jpg);
-    height: 400px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Quicksand', sans-serif;
@@ -66,7 +66,7 @@ header >span#bmenu >div {
 header> section {
     color: aliceblue;
     font-size: 1.3em;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 30px;
     
    
@@ -119,14 +119,19 @@ main {
    padding: 10px;
    justify-content: space-around;
    flex: 1 0 auto;
+   background-color: #f0f0f0;
 }
 
 main> div {
+    text-align: left;
+    background-color: rgb(255, 255, 255);
     margin: 10px;
-    width: 300px;
-    height: 80px;
+    width: 250px;
+    height: 100px;
     padding: 10px;
-    font-size: small;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.062);
+    
 }
 
 footer {
